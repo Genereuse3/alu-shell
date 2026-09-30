@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Displays username uid home
 while IFS=: read -r username _ uid _ _ home _
 do
 echo "$username:$uid:$home"
