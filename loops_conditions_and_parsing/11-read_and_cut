@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Displays username, uid, home from /etc/passwd
 while IFS=: read -r username _ uid _ _ home _
 do
 echo "$username:$uid:$home"
